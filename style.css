@@ -1,0 +1,149 @@
+.navbar-brand, .nav-link {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+
+.card-title, .notes-custom {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #494949;
+}
+
+.noline {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #ebe2d1;
+}
+
+::placeholder {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:#494949;
+  }
+
+  li a:hover {
+    background-color: #009c7f;
+    color: white;
+  }
+
+  .navbar-custom {
+    background-color: #494949;
+    opacity: 0.9;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.bg-custom {
+    background-color: #ebe2d1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.col-4 {
+    margin: 0;
+  overflow: hidden;
+  height:100%;
+}
+
+.made {
+    height:100%;
+}
+
+.made {
+    position: absolute;
+    top: 0px;
+    bottom: 10px;
+    left: 2%;
+    width: 30%;
+    overflow-y: scroll; 
+}
+
+.made2 {
+    height:100%;
+}
+
+.made2 {
+    position: absolute;
+    top: 0px;
+    bottom: 10px;
+    left: 35%;
+    width: 30%;
+    overflow-y: scroll; 
+}
+
+.made3 {
+    height:100%;
+}
+
+.made3 {
+    position: absolute;
+    top: 0px;
+    bottom: 10px;
+    left: 68%;
+    width: 30%;
+    overflow-y: scroll; 
+}
+
+.made::-webkit-scrollbar {
+    display: none;
+  }
+
+.made2::-webkit-scrollbar {
+    display: none;
+  }
+
+.made3::-webkit-scrollbar {
+    display: none;
+  }
+
+  .made, .made2, .made3 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.row {
+    margin: 0;
+    overflow: hidden;
+    height:100%;
+}
+
+.card-body {
+    background-color: #dbd0ba;
+}
+
+.link-custom {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #009c7f;
+}
+
+.link-custom:hover {
+    color: #e0ab55;
+}
+
+.navbar-brand:hover {
+    color: #e0ab55;
+}
+
+.notes-custom {
+    background-color: #ebe2d1;
+}
+
+.card-title:hover {
+    color: #009c7f;
+}
+
+.like-icon {
+    float: right;
+    font-size: 25px;
+    color: #494949;
+    opacity: 0.8;
+}
+
+.like-icon:hover {
+    color: #009c7f;
+}
